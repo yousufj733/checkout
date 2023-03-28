@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body
+{
+   background: #FFF;
+   font-family: 'Montserrat', sans-serif;
+}
+section 
+{
+    padding: 3rem 0;
+}
+.container
+{
+    width: 980px;
+    margin: 0 auto;
+}
+img 
+{
+    width: 100%;
+}
+
+.head
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+margin-bottom: 30px;
+
+color: #4E5150;
+
+transform: rotate(-0.02deg);
+}
+
+.title
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #333333;
+transform: rotate(-0.02deg);
+}
+
+/* ######################## 
+                            Checkout CSS
+###########################*/
+.checkout
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    gap: 2rem;
+}
+
+
+
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 80%;
+    margin: 40px 0;
+   
+}
+  
+.icon {
+    padding:20px 12px;
+     color: #828282;
+}
+  
+.input-field {
+ 
+    padding: 0 40px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    width: 465px;
+    height: 56px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+   
+}
+
+
+
+.input-icons label
+{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px!important;
+line-height: 15px;
+color: #4F4F4F;
+transform: rotate(-0.02deg);
+}
+
+
+::placeholder
+{
+text-align: left;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px!important;
+line-height: 20px;
+color: #828282;
+}
+
+.flex-2
+{
+display: flex;
+gap: 12px;
+width: 475px;
+
+}
+.flex-2 .input-field {
+
+padding: 7px 40px;
+width: 224px;
+height: 56px;
+}
+
+.flex-2  .input-icons {
+width: 100%;
+margin:5px 0;  
+}
+
+.sp
+{
+position: relative;
+}
+.change-2 
+{
+position: absolute;
+right:  64%;
+top: 50%;
+left:80%;
+border-radius: 4px;    
+display: flex;
+justify-content: center;
+align-items: center;
+background: #E0E0E0!important;
+padding: 3px 12px!important;
+}
+
+
+/* .change{
+    
+
+} */
+
+
+
+
+.change::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+
+.change::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight:700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+   
+}
+
+
+
+
+
+/* ######################## 
+                            info CSS
+###########################*/
+
+.info
+{
+display: flex;
+gap: 1rem;
+align-items: center;
+}
+
+.info i
+{
+border-radius: 4px;
+}
+.info p 
+{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+color: #4F4F4F;
+transform: rotate(-0.02deg);
+}
+
+.btn__class
+{
+  display: flex;
+flex-direction: column;
+align-self: flex-end;
+align-items: flex-end;
+width: 544px;
+margin-top: auto;
+
+}
+.btn 
+{
+padding: 14px 30px;
+background: #F2994A;
+width: 28%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+color: #FFFFFF;
+border-radius: 12px;
+}
+/* ######################## 
+                            Footer CSS
+###########################*/
+
+footer
+{
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+    
+}
+
+
+footer p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+   
+
+}
+
+footer strong 
+{
+    text-decoration: underline;
+}
